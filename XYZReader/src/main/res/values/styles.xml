@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="Theme.Bacon" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Theme.BaconFullScreen" parent="Theme.Bacon">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.CardTitle" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/card_title_size</item>
+    </style>
+
+    <style name="Theme.CardSubtitle" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/card_subtitle_size</item>
+    </style>
+
+    <style name="Theme.DateText" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/date_text</item>
+        <item name="android:textSize">@dimen/date_text_size</item>
+    </style>
+
+    <style name="Theme.BodyText" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_body_size</item>
+    </style>
+
+</resources>

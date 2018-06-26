@@ -1,0 +1,5 @@
+<resources>
+    <integer name="list_column_count">4</integer>
+
+    <dimen name="card_image_height">240dp</dimen>
+</resources>
